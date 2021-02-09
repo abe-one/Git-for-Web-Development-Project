@@ -25,10 +25,13 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     10. What is a class?
         Similar to ID, identifier that can be used multiple times accross the page and more than one per tag.  
     11. What elements can I add a class to?
-        
-    12. How many times can I use the same class on a page? 
+        Any tag
+    12. How many times can I use the same class on a page?
+        Endless 
     13. How do I get my link to open in a new tab?
+        <a href=# ```target="_blank"```></a>
     14. What is the alt attribute in the image tag used for? 
+        The text in the alt provides a description of the content for screen readers, or just a funny hidden caption.
     15. How do I reference an id?
     16. What is the difference between a section and a div
     17. What is CSS used for? 
