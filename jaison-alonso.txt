@@ -70,14 +70,33 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     29. How do I select everything on the page? 
         *{}
     30. How do I write a comment in CSS?
-        
+        /**/
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        rm, no safety question
+    34. Why should I use version control?
+        Large scale undo's and prevent conflicts with collab files 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        Everytime you make something work, or every ~20mins whichever's more frequent
+    36. What is the command we would use to push our repo up to github?
+        git push first time would be git -u origin branch-name
     37. Walk me through Lambda's git flow. 
+        Simplified:
+        Fork the repo on github
+        Using Bash inside the directory where you want to save your clone, ENTER git clone <cloned-repo-link.git>
+        Inside the repo directory, ENTER git checkout -b firstName-lastName to create the new branch and protect your main (clone)
+        As you work commit often
+        git add .
+        git commit -m "update message"
+        git push -u origin firstName-lastName
+        Repeat, minus "-u origin.."
+        Inside your forked repo on github, select your branch and New pull request
+        On the pull request page, change the base repository to your forked repo, and not Lambda's or anyone else's
+        Create the pull request
+
 
 Stretch Questions
 
