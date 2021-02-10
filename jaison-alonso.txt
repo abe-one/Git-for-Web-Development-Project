@@ -95,7 +95,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         Repeat, minus "-u origin.."
         Inside your forked repo on github, select your branch and New pull request
         On the pull request page, change the base repository to your forked repo, and not Lambda's or anyone else's
-        Create the pull request
+        Create the pull request.
 
 
 Stretch Questions
