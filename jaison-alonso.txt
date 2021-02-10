@@ -101,9 +101,15 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        Inline elements sit in line, they don't line break and they can't hold block level elements, block level elements take up space inside whatever block their in, can contain anything, and typically line break.
+    2. What happens when an element is positioned absolutely?
+        It will be positioned relative to the it's nearest positioned ancestor and will be unaffected by the normal flow/push of everything else. If there is no positioned ancesetor, then it will refer to the body, the highest positioned element on the page. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        max-width: Will allow the use of the width property but prevent it from going over 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block: <div> <p> <h1>
+        inline: <span> <a href=>
+        <button>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
